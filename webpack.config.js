@@ -6,10 +6,11 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'main.js',
+        publicPath: './',
         clean: true
     },
     devServer: {
-        static: './index.html',
+        static: './dist',
         open: true,
         port: 3000,
     },
