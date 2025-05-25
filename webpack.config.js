@@ -9,13 +9,13 @@ module.exports = {
         clean: true
     },
     devServer: {
-        static: './public/index.html',
+        static: './index.html',
         open: true,
         port: 3000,
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './public/index.html',
+            template: './index.html',
         })
     ],
     module: {

@@ -1,7 +1,7 @@
 import Phaser from 'phaser';
-import GameScene from "../Scenes/GameScene"
-import StartScene from "../Scenes/StartScene"
-import assets from "../assets";
+import GameScene from "./Scenes/GameScene"
+import StartScene from "./Scenes/StartScene"
+import assets from "./assets";
 const config = {
     type: Phaser.AUTO,
     width: '100%',
